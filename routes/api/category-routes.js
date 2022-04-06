@@ -44,3 +44,20 @@ router.post('/', async (req, res) => {
     res.status(400).json(err);
   }
 });
+
+router.put('/:id', (req, res) => {
+  // update a category by its `id` value
+  Category.update(req.body, {
+    where: {
+      id: req.params.id,
+    },
+  })
+    .then((productTag) => {
+      res.status(200).json(productTag);
+
+    })
+    .catch((err) => {
+      // console.log(err);
+      res.status(400).json(err);
+    });
+});
