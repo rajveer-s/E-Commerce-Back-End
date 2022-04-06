@@ -15,7 +15,6 @@
   - [Installation](#installation)
   - [Usage](#usage)
   - [Links](#links)
-  - [Video](#video)
   - [User Story](#user-story)
   - [Acceptance Criteria](#acceptance-criteria)
 
@@ -49,9 +48,6 @@ node server.js
 - [Video Link](https://www.awesomescreenshot.com/video/8256827?key=f7b5855777bbb101f416551a6920c3c9)
 
 ---
-
-## Video: 
-
 
 ## User Story:
 ```md
